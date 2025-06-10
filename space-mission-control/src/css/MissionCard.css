@@ -1,0 +1,20 @@
+.MissionCard {
+    width: auto;
+    border: 2px solid hsl(0, 0%, 100%);
+    margin-top: 20px;
+    padding: 5px 20px 20px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Data {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid orange; */
+}
+
+.value {
+    color: hsl(0, 0%, 70%);
+}

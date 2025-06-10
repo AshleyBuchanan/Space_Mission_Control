@@ -1,0 +1,32 @@
+.Button {
+    width: 100px;
+    padding: 10px 25px;
+    text-align: center;
+    align-content: center;
+}
+
+.green {
+    border: 2px solid hsl(120, 100%, 50%);
+}
+
+.red {
+    border: 2px solid hsl(0, 100%, 50%);
+}
+
+.active.Button:not(.disabled) {
+    border-color: hsl(0, 0%, 90%);
+    box-shadow: 0 0 10px hsla(0, 0%, 75%, .5);
+    background-color: hsla(0, 0%, 75%, .25);
+}
+
+.Button:hover:not(.disabled) {
+    border-color: hsl(0, 0%, 90%);
+    box-shadow: 0 0 10px hsla(0, 0%, 75%, .5);
+}
+
+.disabled {
+    opacity: 50%;
+    border-color: hsla(0, 0%, 75%, .5);
+    box-shadow: none;
+    user-select: none;
+}

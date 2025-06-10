@@ -1,0 +1,12 @@
+.ButtonGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* border: 2px solid green; */
+}
+
+.column {
+    margin-top: 28px;
+    flex-direction: column;
+}
